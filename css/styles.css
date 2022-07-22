@@ -44,16 +44,16 @@ body {
   text-align: center;
   background: #78fa78;
   font-size: 3vw;
-  line-height: 50px;
+  line-height: 2.5vw;
   margin: auto;
-  padding: 10px; box-sizing: border-box;
+  padding: 1vw; box-sizing: border-box;
   font-family: 'Fixedsys',sans-serif;
 }
 
 .container {
   width: 100%;
   margin: auto;
-  border: 3px solid #bbbbbb; box-sizing: border-box;
+  border: 0.2vw solid #bbbbbb; box-sizing: border-box;
   display: flex;
 }
 
@@ -62,7 +62,7 @@ body {
   border: inherit;
   float: left;
   background: #f4f5ed;
-  padding: 10px; box-sizing: border-box;
+  padding: 0.5vw; box-sizing: border-box;
 }
 
 .mid-column {
@@ -70,7 +70,7 @@ body {
   border: inherit;
   float: left;
   background: #D3D3D3;
-  padding: 10px; box-sizing: border-box;
+  padding: 0.5vw; box-sizing: border-box;
 }
 
 .mid-column p {
@@ -80,8 +80,8 @@ body {
 }
 
 .server-line {
-  border: 3px solid #bbbbbb; box-sizing: border-box;
-  padding: 2px; box-sizing: border-box;
+  border: 0.2vw solid #bbbbbb; box-sizing: border-box;
+  padding: 0.15vw; box-sizing: border-box;
   overflow: auto;
   font-family: consolas, sans-serif;
   background: #dbdbdb;
@@ -89,7 +89,7 @@ body {
 
 #server-info {
   min-width: 100%;
-  padding: 2px; box-sizing: border-box;
+  padding: 0.15vw; box-sizing: border-box;
 }
 
 .tooltip-map span{
@@ -98,7 +98,8 @@ body {
   position: absolute;
   background: #fff;
   border: 5px solid #fff;
-  left: calc(50vw - 256px);
+  left: calc(50vw - (100vw - 100%) - 261px);
+  margin-top: 1.7vw;
 }
  
 .tooltip-map:hover span{
@@ -140,7 +141,7 @@ img{ display: block; }
 
 .server-info-players-mid {
   border: 0px;
-  padding: 5px;
+  padding: 0.4vw;
 }
 
 .some-info-table {
@@ -179,26 +180,26 @@ td, th {
 
 .video-block {
   width: 80%;
-  margin: 20px auto;
+  margin: 1vw auto;
 }
 
 .right-column {
   width: 15%;
-  min-width: 80px;
+  /*min-width: 80px;*/
   border: inherit;
   float: left;
   background: #daffd6;
-  padding: 10px; box-sizing: border-box;
+  padding: 0.5vw; box-sizing: border-box;
 }
 
 .shine-button {
   text-decoration: none;
   float: none;
   display: inline-block;
-  width: 90%;
-  margin: 0.3em auto;
-  border: 0.13em solid #fe6637;
-  border-radius: 8px;
+  width: 98.7%;
+  margin: 0.3vw auto;
+  border: 0.13vw solid #fe6637;
+  border-radius: 0.6vw;
   color: #fe6637;
   text-align: center;
   height: 2em;
