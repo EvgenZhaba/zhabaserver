@@ -79,6 +79,12 @@ body {
   text-align: justify;
 }
 
+.many-text {
+  width: 80%;
+  margin: auto;
+}
+
+
 .server-line {
   border: 0.2vw solid #bbbbbb; box-sizing: border-box;
   padding: 0.15vw; box-sizing: border-box;
