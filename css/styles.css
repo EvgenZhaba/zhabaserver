@@ -93,6 +93,10 @@ body {
   background: #dbdbdb;
 }
 
+.empty-line:not(:last-child) {
+  height: 4vw;
+}
+
 #server-info {
   min-width: 100%;
   padding: 0.15vw; box-sizing: border-box;
