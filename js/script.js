@@ -13,10 +13,14 @@ async function getInfo() {
     for (let i = 0; i < servers.length; i++) {
         let requestURL = servers[i]+'/json';
 
-        fetch(requestURL)
-            .then(response => response.json())
-            .then(req => updateServer(req, i))
-            .catch(() => removeServer(i));
+    try {
+        let req = await fetch(requestURL)
+        req = await req.json()
+        updateServer(req, i)
+      }
+    catch(e) {
+        removeServer(i)
+      }
     }
 }
 
